@@ -13,12 +13,17 @@
 class ToggleSwitch {
 public:
 	ToggleSwitch(uint8_t pin);
-	ToggleSwitch(uint8_t pin, uint8_t onState);
+	ToggleSwitch(uint8_t pin, uint8_t closedState);
 
-	bool IsOn();
+	void Update();
+	bool IsClosed();
 private:
 	uint8_t _pin;
-	uint8_t _onState;
+	uint8_t _closedState;
+	int8_t _pastReadings;
+
+	void ClosedStateDetected();
+	void OpenedStateDetected();
 };
 
 #endif
