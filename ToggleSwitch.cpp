@@ -11,6 +11,9 @@ ToggleSwitch::ToggleSwitch(uint8_t pin, uint8_t closedState)
 	this->_pastReadings = 0;
 
 	pinMode(this->_pin, INPUT_PULLUP);
+
+	CallbackSetup callbackRequest((void*)this, &ToggleSwitch::UpdateCallbackWrapper);
+	CpuSpinner::RequestUpdate(callbackRequest);
 }
 
 void ToggleSwitch::Update() {
@@ -24,12 +27,16 @@ void ToggleSwitch::Update() {
 
 bool ToggleSwitch::IsClosed()
 {
-	this->Update();
-
 	if (this->_pastReadings == 0)
 		this->Update();
 
 	return this->_pastReadings > 0;
+}
+
+void ToggleSwitch::UpdateCallbackWrapper(void *instance)
+{
+	ToggleSwitch* self = (ToggleSwitch*)instance;
+	self->Update();
 }
 
 void ToggleSwitch::ClosedStateDetected()
