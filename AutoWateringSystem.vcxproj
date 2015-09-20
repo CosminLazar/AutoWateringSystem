@@ -46,7 +46,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Users\cosmin1\Documents\Arduino\AutoWateringSystem;C:\Program Files (x86)\Arduino\libraries\DHTSensor;C:\Program Files (x86)\Arduino\libraries\DHTSensor\utility;C:\Program Files (x86)\Arduino\libraries\IIC_without_ACK;C:\Program Files (x86)\Arduino\libraries\IIC_without_ACK\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\hvtlhzut.vkr\Micro Platforms\default\debuggers;C:\Users\cosmin1\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Users\cosmin1\Documents\Arduino\AutoWateringSystem;C:\Program Files (x86)\Arduino\libraries\DHTSensor;C:\Program Files (x86)\Arduino\libraries\DHTSensor\utility;C:\Program Files (x86)\Arduino\libraries\IIC_without_ACK;C:\Program Files (x86)\Arduino\libraries\IIC_without_ACK\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\hvtlhzut.vkr\Micro Platforms\default\debuggers;C:\Users\cosmin1\Documents\Arduino\libraries;C:\Users\cosmin1\Documents\Arduino\AutoWateringSystem;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Program Files (x86)\Arduino\libraries\DHTSensor;C:\Program Files (x86)\Arduino\libraries\IIC_without_ACK;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\hvtlhzut.vkr\Micro Platforms\default\debuggers;C:\Users\cosmin1\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Users\cosmin1\Documents\Arduino\AutoWateringSystem\__vm\.AutoWateringSystem.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=165;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -79,7 +79,9 @@
     <ClInclude Include="CpuSpinner.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="PinReservation.h" />
+    <ClInclude Include="SystemState.h" />
     <ClInclude Include="ToggleSwitch.h" />
+    <ClInclude Include="UserOverridenWateringState.h" />
     <ClInclude Include="WateringSystem.h" />
     <ClInclude Include="WaterPump.h" />
     <ClInclude Include="WaterSensor.h" />
@@ -89,7 +91,9 @@
     <ClCompile Include="AmbientalSensor.cpp" />
     <ClCompile Include="CpuSpinner.cpp" />
     <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="SystemState.cpp" />
     <ClCompile Include="ToggleSwitch.cpp" />
+    <ClCompile Include="UserOverridenWateringState.cpp" />
     <ClCompile Include="WateringSystem.cpp" />
     <ClCompile Include="WaterPump.cpp" />
     <ClCompile Include="WaterSensor.cpp" />
