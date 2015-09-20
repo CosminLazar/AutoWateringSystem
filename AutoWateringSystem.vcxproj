@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmbientalSensor.h" />
+    <ClInclude Include="CpuSpinner.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="PinReservation.h" />
     <ClInclude Include="ToggleSwitch.h" />
@@ -86,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AmbientalSensor.cpp" />
+    <ClCompile Include="CpuSpinner.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="ToggleSwitch.cpp" />
     <ClCompile Include="WateringSystem.cpp" />
