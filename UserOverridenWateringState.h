@@ -6,6 +6,7 @@
 #include "SystemState.h"
 #include "ToggleSwitch.h"
 #include "WaterPump.h"
+#include "Graphics.h"
 
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "arduino.h"
@@ -24,6 +25,7 @@ public:
 	void EnterState();
 	bool CanLeaveState();
 	void LeaveState();
+	void Render(Graphics& graphics);
 };
 #endif
 

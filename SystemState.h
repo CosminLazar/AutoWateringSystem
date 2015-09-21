@@ -3,6 +3,8 @@
 #ifndef _SYSTEMSTATE_h
 #define _SYSTEMSTATE_h
 
+#include "Graphics.h"
+
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "arduino.h"
 #else
@@ -16,6 +18,7 @@ public:
 	virtual void EnterState() = 0;
 	virtual bool CanLeaveState() = 0;
 	virtual void LeaveState() = 0;
+	virtual void Render(Graphics& graphics) = 0;
 };
 #endif
 

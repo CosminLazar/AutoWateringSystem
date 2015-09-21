@@ -9,10 +9,16 @@ void UserOverridenWateringState::EnterState()
 }
 
 bool UserOverridenWateringState::CanLeaveState() {
-	return !this->_manualOverrideSwitch.IsClosed();
+	return (!this->_manualOverrideSwitch.IsClosed());
 }
 
 void UserOverridenWateringState::LeaveState()
 {
 	this->_waterPump.Stop();
+}
+
+
+void UserOverridenWateringState::Render(Graphics & graphics)
+{
+	
 }

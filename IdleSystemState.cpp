@@ -1,7 +1,3 @@
-// 
-// 
-// 
-
 #include "IdleSystemState.h"
 
 bool IdleSystemState::CanEnterState()
@@ -11,7 +7,7 @@ bool IdleSystemState::CanEnterState()
 
 void IdleSystemState::EnterState()
 {
-	
+
 }
 
 bool IdleSystemState::CanLeaveState()
@@ -20,6 +16,11 @@ bool IdleSystemState::CanLeaveState()
 }
 
 void IdleSystemState::LeaveState()
+{
+
+}
+
+void IdleSystemState::Render(Graphics & graphics)
 {
 	
 }
