@@ -35,7 +35,7 @@ void Graphics::Draw_Xbm(unsigned char x, unsigned char y, XbmImage & image)
 		uint8_t bytesRead = streamer.ReadNext(buffer, bufferSize);
 		uint8_t linesRead = bytesRead / bytesPerLine;
 
-		this->displayController->Draw_BMP(x, sliceYPosition, rightMostX, sliceYPosition + linesRead, (char *)buffer);
+		this->displayController->Draw_BMP(x, y + sliceYPosition, rightMostX, y + sliceYPosition + linesRead, (char *)buffer);
 	}
 }
 
