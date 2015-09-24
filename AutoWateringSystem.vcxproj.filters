@@ -71,6 +71,12 @@
     <ClInclude Include="ResourceStreamer.h">
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
+    <ClInclude Include="XbmImage.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="WateringMan.h">
+      <Filter>Header Files\Graphics\Resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Graphics.cpp">
@@ -105,6 +111,9 @@
     </ClCompile>
     <ClCompile Include="ResourceStreamer.cpp">
       <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="WateringMan.cpp">
+      <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
