@@ -7,6 +7,7 @@
 #include "ToggleSwitch.h"
 #include "WaterPump.h"
 #include "Graphics.h"
+#include "WateringMan.h"
 
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "arduino.h"
