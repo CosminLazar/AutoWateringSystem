@@ -1,3 +1,10 @@
+#include "ResourceStreamer.h"
+#include "WateringMan.h"
+#include "XbmImage.h"
+#include "IdleSystemState.h"
+#include "UserOverridenWateringState.h"
+#include "SystemState.h"
+#include "CpuSpinner.h"
 #include "ToggleSwitch.h"
 #include "PinReservation.h"
 #include <DHTSensor.h>
@@ -13,7 +20,9 @@ WateringSystem* _system;
 
 void setup()
 {
+	Serial.begin(9600);
 	_graphics = new Graphics(OLED_SDA, OLED_SCL);
+
 	_system = new WateringSystem();
 }
 
