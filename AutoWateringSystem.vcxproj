@@ -86,6 +86,7 @@
     <ClInclude Include="SystemState.h" />
     <ClInclude Include="ToggleSwitch.h" />
     <ClInclude Include="UserOverridenWateringState.h" />
+    <ClInclude Include="WateringCanImg.h" />
     <ClInclude Include="WateringMan.h" />
     <ClInclude Include="WateringSystem.h" />
     <ClInclude Include="WaterPump.h" />
@@ -104,6 +105,7 @@
     <ClCompile Include="SystemState.cpp" />
     <ClCompile Include="ToggleSwitch.cpp" />
     <ClCompile Include="UserOverridenWateringState.cpp" />
+    <ClCompile Include="WateringCanImg.cpp" />
     <ClCompile Include="WateringMan.cpp" />
     <ClCompile Include="WateringSystem.cpp" />
     <ClCompile Include="WaterPump.cpp" />
