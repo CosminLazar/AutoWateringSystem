@@ -1,7 +1,7 @@
 // WateringMan.h
 
-#ifndef _WATERINGMAN_h
-#define _WATERINGMAN_h
+#ifndef _WATERINGMANIMG_h
+#define _WATERINGMANIMG_h
 
 #include "XbmImage.h"
 #include "ResourceStreamer.h"
@@ -12,7 +12,7 @@
 #include "WProgram.h"
 #endif
 
-class WateringMan : public XbmImage {
+class WateringManImg : public XbmImage {
 
 public:
 	uint8_t GetWidth();

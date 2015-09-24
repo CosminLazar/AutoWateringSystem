@@ -2,7 +2,7 @@
 #include "SunImg.h"
 #include "HumidityImg.h"
 #include "ResourceStreamer.h"
-#include "WateringMan.h"
+#include "WateringManImg.h"
 #include "XbmImage.h"
 #include "IdleSystemState.h"
 #include "UserOverridenWateringState.h"

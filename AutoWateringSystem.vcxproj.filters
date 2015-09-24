@@ -74,9 +74,6 @@
     <ClInclude Include="XbmImage.h">
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="WateringMan.h">
-      <Filter>Header Files\Graphics\Resources</Filter>
-    </ClInclude>
     <ClInclude Include="HumidityImg.h">
       <Filter>Header Files\Graphics\Resources</Filter>
     </ClInclude>
@@ -84,6 +81,9 @@
       <Filter>Header Files\Graphics\Resources</Filter>
     </ClInclude>
     <ClInclude Include="WateringCanImg.h">
+      <Filter>Header Files\Graphics\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="WateringManImg.h">
       <Filter>Header Files\Graphics\Resources</Filter>
     </ClInclude>
   </ItemGroup>
@@ -121,9 +121,6 @@
     <ClCompile Include="ResourceStreamer.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="WateringMan.cpp">
-      <Filter>Source Files\Graphics\Resources</Filter>
-    </ClCompile>
     <ClCompile Include="HumidityImg.cpp">
       <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
@@ -131,6 +128,9 @@
       <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
     <ClCompile Include="WateringCanImg.cpp">
+      <Filter>Source Files\Graphics\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="WateringManImg.cpp">
       <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
   </ItemGroup>
