@@ -80,6 +80,7 @@
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="IdleSystemState.h" />
     <ClInclude Include="PinReservation.h" />
+    <ClInclude Include="ResourceStreamer.h" />
     <ClInclude Include="SystemState.h" />
     <ClInclude Include="ToggleSwitch.h" />
     <ClInclude Include="UserOverridenWateringState.h" />
@@ -93,6 +94,7 @@
     <ClCompile Include="CpuSpinner.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="IdleSystemState.cpp" />
+    <ClCompile Include="ResourceStreamer.cpp" />
     <ClCompile Include="SystemState.cpp" />
     <ClCompile Include="ToggleSwitch.cpp" />
     <ClCompile Include="UserOverridenWateringState.cpp" />

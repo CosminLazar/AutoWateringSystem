@@ -9,15 +9,23 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Source Files\States">
       <UniqueIdentifier>{b96a741c-2cd2-42b5-9bd1-820b651b4aec}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\States">
       <UniqueIdentifier>{f2b766f1-d54a-4668-b23c-69e30941a628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{92a134d8-cca3-4cf9-a332-bcd4d6218647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Resources">
+      <UniqueIdentifier>{bd89b985-a7ea-4fa0-9ea1-1cf12284cb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{5551f847-4c5e-4a3b-bb56-929a74fd37ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Resources">
+      <UniqueIdentifier>{c905e4ac-a86b-44a0-a66a-ee3dfddf7ce9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +68,9 @@
     <ClInclude Include="IdleSystemState.h">
       <Filter>Header Files\States</Filter>
     </ClInclude>
+    <ClInclude Include="ResourceStreamer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Graphics.cpp">
@@ -91,6 +102,9 @@
     </ClCompile>
     <ClCompile Include="IdleSystemState.cpp">
       <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceStreamer.cpp">
+      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
