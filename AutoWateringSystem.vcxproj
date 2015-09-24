@@ -82,6 +82,7 @@
     <ClInclude Include="IdleSystemState.h" />
     <ClInclude Include="PinReservation.h" />
     <ClInclude Include="ResourceStreamer.h" />
+    <ClInclude Include="SunImg.h" />
     <ClInclude Include="SystemState.h" />
     <ClInclude Include="ToggleSwitch.h" />
     <ClInclude Include="UserOverridenWateringState.h" />
@@ -99,6 +100,7 @@
     <ClCompile Include="HumidityImg.cpp" />
     <ClCompile Include="IdleSystemState.cpp" />
     <ClCompile Include="ResourceStreamer.cpp" />
+    <ClCompile Include="SunImg.cpp" />
     <ClCompile Include="SystemState.cpp" />
     <ClCompile Include="ToggleSwitch.cpp" />
     <ClCompile Include="UserOverridenWateringState.cpp" />

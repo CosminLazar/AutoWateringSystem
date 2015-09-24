@@ -80,6 +80,9 @@
     <ClInclude Include="HumidityImg.h">
       <Filter>Header Files\Graphics\Resources</Filter>
     </ClInclude>
+    <ClInclude Include="SunImg.h">
+      <Filter>Header Files\Graphics\Resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Graphics.cpp">
@@ -119,6 +122,9 @@
       <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
     <ClCompile Include="HumidityImg.cpp">
+      <Filter>Source Files\Graphics\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SunImg.cpp">
       <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
   </ItemGroup>

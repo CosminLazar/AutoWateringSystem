@@ -1,3 +1,4 @@
+#include "SunImg.h"
 #include "HumidityImg.h"
 #include "ResourceStreamer.h"
 #include "WateringMan.h"
