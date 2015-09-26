@@ -86,6 +86,9 @@
     <ClInclude Include="WateringManImg.h">
       <Filter>Header Files\Graphics\Resources</Filter>
     </ClInclude>
+    <ClInclude Include="ThermometerImg.h">
+      <Filter>Header Files\Graphics\Resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Graphics.cpp">
@@ -131,6 +134,9 @@
       <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
     <ClCompile Include="WateringManImg.cpp">
+      <Filter>Source Files\Graphics\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ThermometerImg.cpp">
       <Filter>Source Files\Graphics\Resources</Filter>
     </ClCompile>
   </ItemGroup>

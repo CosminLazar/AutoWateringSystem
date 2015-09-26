@@ -1,3 +1,4 @@
+#include "ThermometerImg.h"
 #include "WateringCanImg.h"
 #include "SunImg.h"
 #include "HumidityImg.h"
