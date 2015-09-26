@@ -28,7 +28,7 @@ public:
 
 private:
 	static const uint8_t KnownStatesCount = 2;
-	AmbientalSensor* _ambientalSensor;
+	DHTSensor* _ambientalSensor;
 	WaterSensor* _pumpWaterSensor;
 	WaterSensor* _plantWaterSensor;
 	WaterPump* _waterPump;

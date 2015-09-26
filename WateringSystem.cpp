@@ -6,7 +6,7 @@
 
 WateringSystem::WateringSystem()
 {
-	this->_ambientalSensor = new AmbientalSensor(AmbientalTemperaturePin);
+	this->_ambientalSensor = new DHTSensor(AmbientalTemperaturePin);
 	this->_plantWaterSensor = new WaterSensor(PlantWaterSensorPin);
 	this->_pumpWaterSensor = new WaterSensor(PumpWaterSensorPin);
 	this->_waterPump = new WaterPump(WaterPumpPowerPin, this->_pumpWaterSensor);
@@ -25,6 +25,7 @@ WateringSystem::WateringSystem()
 
 void WateringSystem::Update(Graphics* graphics)
 {
+	//Serial.println("loop");
 	CpuSpinner::Update();
 
 	//todo: a state with a higher priority and enterable should be able to force it out
@@ -49,9 +50,11 @@ void WateringSystem::Update(Graphics* graphics)
 		}
 	}
 
+	this->_currentState->DoWork();
+
 	//RENDER STATE
 	this->_currentState->Render(*graphics);
-	
+
 	/*
 	states:
 		4-defaultState - show ambiental temperature, air humidity, soil humidity and some graphics
