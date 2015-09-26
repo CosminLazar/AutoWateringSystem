@@ -17,10 +17,8 @@ void UserOverridenWateringState::LeaveState()
 	this->_waterPump.Stop();
 }
 
-
 void UserOverridenWateringState::Render(Graphics & graphics)
 {
-	WateringMan image;
-	uint8_t centerX = (graphics.GetWidth() / 2) - (image.GetWidth() / 2);
-	graphics.Draw_Xbm(centerX, 0, image);
+	uint8_t centerX = (graphics.GetWidth() / 2) - (this->_wateringManImg.GetWidth() / 2);
+	graphics.Draw_Xbm(centerX, 0, this->_wateringManImg);
 }

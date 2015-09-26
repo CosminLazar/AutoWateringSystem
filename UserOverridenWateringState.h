@@ -22,13 +22,14 @@ class UserOverridenWateringState : public SystemState {
 private:
 	ToggleSwitch& _manualOverrideSwitch;
 	WaterPump& _waterPump;
+	WateringManImg _wateringManImg;
 public:
 	UserOverridenWateringState(ToggleSwitch& manualOverrideSwitch, WaterPump& waterPump) 
 		:_manualOverrideSwitch(manualOverrideSwitch), _waterPump(waterPump) {}
 	bool CanEnterState();
 	void EnterState();
 	bool CanLeaveState();
-	void LeaveState();
+	void LeaveState();	
 	void Render(Graphics& graphics);
 };
 #endif
