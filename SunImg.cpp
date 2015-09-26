@@ -1,6 +1,6 @@
-// 
-// 
-// 
+// Image credit
+// Icon made by Freepik (http://www.freepik.com) from www.flaticon.com is licensed under CC BY 3.0
+// Link: http://www.flaticon.com/free-icon/sun_66275
 
 #include "SunImg.h"
 
